@@ -18,13 +18,11 @@ echo '
                                              (IPCLI AKA mmander, yeah!)
 '
 
-echo -e "Default \e[97mWhite"
-echo -e "Default \e[42mGreen"
-
+echo -e "\e[97m"
+echo -e "\e[42m"
 echo '
-
-to start type: mmander  ↵
+to start type:mmander  ↵
 
 
 '
-. /commom/file-management.bash
+# . /commom/file-management.bash
