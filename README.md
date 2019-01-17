@@ -6,8 +6,8 @@
 
 ```bash
 # Clone repository
-mkdir -p ~/go/src/github/hubflow
-cd ~/go/src/github/hubflow
+mkdir -p ~/go/src/github.com/hubflow
+cd ~/go/src/github.com/hubflow
 git clone git@github.com:hubflow/commander.git
 
 # Check contents of install script
