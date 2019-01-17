@@ -1,6 +1,6 @@
 # Hubflow Commander
 
-[Description placeholder]
+The interplanetary Command Line Interface (IPCL) :rocket:
 
 # Install
 
