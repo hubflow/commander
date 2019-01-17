@@ -23,7 +23,7 @@ echo '
 echo -e "\e[93m"
 
 echo -e "\e[97m"
-echo 'to start type: '
+echo -e 'to start type: \e[42m dos ↵'
 echo -e "\e[42m"
-echo 'dos ↵'
+
 # . /commom/file-management.bash
