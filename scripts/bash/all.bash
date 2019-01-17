@@ -19,10 +19,7 @@ echo '
 '
 
 echo -e "\e[97m"
+echo 'to start type: '
 echo -e "\e[42m"
-echo '
-to start type:mmander  ↵
-
-
-'
+echo 'mmander ↵'
 # . /commom/file-management.bash
