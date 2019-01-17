@@ -1,6 +1,6 @@
-# Hubflow Commander
+# Hubflow DOS
 
-The Interplanetary Command Line Interface (IPCLI) :rocket:
+The Interplanetary Command Line Interface (IPCLI AKA DOS) :rocket:
 
 # Install
 
