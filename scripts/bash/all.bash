@@ -2,7 +2,7 @@
 
 # source commom
 echo 'file:// $dr/github.com/hubflow/commander/scripts/bash/all.bash'
-echo -e "\e[92mLight green"
+echo -e "\e[92m"
 
 echo '
 
