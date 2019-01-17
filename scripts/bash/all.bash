@@ -16,6 +16,11 @@ echo '
 echo -e "\e[93m"
 echo '
                                              (IPCLI AKA mmander, yeah!)
+'
+
+echo -e "Default \e[42mGreen"
+
+echo '
 
 to start type: mmander  ↵
 
