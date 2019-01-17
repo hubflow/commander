@@ -2,7 +2,7 @@
 
 # source commom
 echo 'file:// $dr/github.com/hubflow/commander/scripts/bash/all.bash'
-echo -e "Default \e[92mLight green"
+echo -e "\e[92mLight green"
 
 echo '
 
@@ -11,7 +11,7 @@ echo '
 |__| |  | |__) |__  |    /  \ |  |    /  ` /  \  |\/|  |\/|  /\  |\ | |  \ |__  |__) 
 |  | \__/ |__) |    |___ \__/ |/\|    \__, \__/  |  |  |  | /~~\ | \| |__/ |___ |  \ 
                                                                                      
-                                                                                     (IPCLI AKA mmander, yeah!)
+                                             \e[93mLight (IPCLI AKA mmander, yeah!)
 
 to start type: mmander  ↵
 
