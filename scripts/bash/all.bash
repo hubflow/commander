@@ -18,6 +18,7 @@ echo '
                                              (IPCLI AKA mmander, yeah!)
 '
 
+echo -e "Default \e[97mWhite"
 echo -e "Default \e[42mGreen"
 
 echo '
