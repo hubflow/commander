@@ -5,10 +5,13 @@
 # Install
 
 ```bash
+# Clone repository
 mkdir -p ~/go/src/github/hubflow
 cd ~/go/src/github/hubflow
 git clone git@github.com:hubflow/commander.git
 
+# Check contents of install script
+cat sh ./commander/scripts/bash/install.sh
 
 ```
 
