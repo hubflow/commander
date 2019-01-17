@@ -1,7 +1,9 @@
 
 
 # source commom
-echo 'ALL ----------------------------------'
+echo 'file:// $dr/github.com/hubflow/commander/scripts/bash/all.bash'
+echo -e "Default \e[92mLight green"
+
 echo '
 
 
