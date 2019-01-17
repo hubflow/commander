@@ -8,7 +8,8 @@
 mkdir -p ~/go/src/github/hubflow
 cd ~/go/src/github/hubflow
 git clone git@github.com:hubflow/commander.git
-echo "Source Commander" >> ~/.bashrc
+echo ""
+echo "Source Hubflow Commander" >> ~/.bashrc
 echo ". ~/go/src/github.com/hubflow/commander/scripts/bash/all.bash" >> ~/.bashrc
 
 ```
