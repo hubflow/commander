@@ -9,7 +9,10 @@ echo '
 |__| |  | |__) |__  |    /  \ |  |    /  ` /  \  |\/|  |\/|  /\  |\ | |  \ |__  |__) 
 |  | \__/ |__) |    |___ \__/ |/\|    \__, \__/  |  |  |  | /~~\ | \| |__/ |___ |  \ 
                                                                                      
-                                                                                     (IPCLI)
+                                                                                     (IPCLI AKA mmander, yeah!)
+
+to start type: mmander  ↵
+
 
 '
 . /commom/file-management.bash
