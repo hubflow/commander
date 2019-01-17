@@ -1,5 +1,5 @@
 
 
 # source commom
-echo 'Sourcing all !'
+echo 'ALL ----------------------------------'
 ./commom/file-management.bash
