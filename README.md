@@ -13,6 +13,9 @@ git clone git@github.com:hubflow/commander.git
 # Check contents of install script
 cat ./commander/scripts/bash/install.sh
 
+# Run install script
+sh ./commander/scripts/bash/install.sh
+
 ```
 
 # Standard Go Project Layout
