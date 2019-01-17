@@ -11,7 +11,7 @@ cd ~/go/src/github/hubflow
 git clone git@github.com:hubflow/commander.git
 
 # Check contents of install script
-cat sh ./commander/scripts/bash/install.sh
+cat ./commander/scripts/bash/install.sh
 
 ```
 
