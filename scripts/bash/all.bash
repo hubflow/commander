@@ -1,5 +1,6 @@
 
 # https://misc.flogisoft.com/bash/tip_colors_and_formatting
+# https://en.wikipedia.org/wiki/MS-DOS
 # source commom
 echo 'file:// $dr/github.com/hubflow/commander/scripts/bash/all.bash'
 
