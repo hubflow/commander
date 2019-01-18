@@ -8,13 +8,13 @@ The Interplanetary Command Line Interface (IPCLI AKA DOS) :rocket:
 # Clone repository
 mkdir -p ~/go/src/github.com/hubflow
 cd ~/go/src/github.com/hubflow
-git clone git@github.com:hubflow/commander.git
+git clone git@github.com:hubflow/dos.git
 
 # Check contents of install script
-cat ./commander/scripts/bash/install.sh
+cat ./dos/scripts/bash/install.sh
 
 # Run install script
-sh ./commander/scripts/bash/install.sh
+sh ./dos/scripts/bash/install.sh
 
 ```
 

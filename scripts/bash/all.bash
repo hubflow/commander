@@ -1,5 +1,5 @@
 
-
+# https://misc.flogisoft.com/bash/tip_colors_and_formatting
 # source commom
 echo 'file:// $dr/github.com/hubflow/commander/scripts/bash/all.bash'
 
