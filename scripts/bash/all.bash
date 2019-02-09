@@ -20,7 +20,7 @@ echo -e '\e[92m
 
 
 \e[97m
- Where do you want to go today? \e[93m                                         v 0.0.1
+ What do you want to lunch today? \e[93m                                         v 0.0.1
 \e[92m
 ═══════════════════════════════════════════════════════════════════════════════════
 '
