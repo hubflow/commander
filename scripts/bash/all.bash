@@ -2,7 +2,7 @@
 # https://misc.flogisoft.com/bash/tip_colors_and_formatting
 # https://en.wikipedia.org/wiki/MS-DOS
 # source commom
-echo 'file:// $dr/github.com/hubflow/commander/scripts/bash/all.bash'
+echo 'file:// $dr/github.com/hubflow/dos/scripts/bash/all.bash'
 export DEVROOT=$HOME/go/src
 export DR=$HOME/go/src
 
@@ -24,10 +24,10 @@ echo -e '\e[92m
 echo -e '\e[97m'
 echo -e 'to start type: dos ↵\n'
 
-. $DR/github.com/hubflow/commander/scripts/bash/common/apps.bash
-. $DR/github.com/hubflow/commander/scripts/bash/common/docker.bash
-. $DR/github.com/hubflow/commander/scripts/bash/common/file-management.bash
-. $DR/github.com/hubflow/commander/scripts/bash/common/go.bash
-. $DR/github.com/hubflow/commander/scripts/bash/common/misc.bash
-. $DR/github.com/hubflow/commander/scripts/bash/common/network.bash
-. $DR/github.com/hubflow/commander/scripts/bash/common/os.bash
+. $DR/github.com/hubflow/dos/scripts/bash/common/apps.bash
+. $DR/github.com/hubflow/dos/scripts/bash/common/docker.bash
+. $DR/github.com/hubflow/dos/scripts/bash/common/file-management.bash
+. $DR/github.com/hubflow/dos/scripts/bash/common/go.bash
+. $DR/github.com/hubflow/dos/scripts/bash/common/misc.bash
+. $DR/github.com/hubflow/dos/scripts/bash/common/network.bash
+. $DR/github.com/hubflow/dos/scripts/bash/common/os.bash
