@@ -34,4 +34,4 @@ echo -e '\e[92m
 . $DOSROOT/scripts/bash/common/os.bash
 
 echo -e '\e[97m'
-echo -e ' to start type: dos ↵\n'
+echo -e ' to start type: \e[93m dos ↵\n'
