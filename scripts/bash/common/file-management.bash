@@ -19,5 +19,6 @@ alias .5='cd ../../../../..'
 alias .d="cd ~/Downloads"
 alias .r="cd $DR"
 alias .rg="cd $DR/github.com"
+alias .rs="cd $DR/source.hubflow.io"
 
 alias s=". ~/.bashrc"
