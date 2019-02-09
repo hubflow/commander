@@ -1,4 +1,4 @@
-# Hubflow DOS
+# Rocket DOS
 
 The Interplanetary Command Line Interface (IPCLI AKA DOS) :rocket:
 

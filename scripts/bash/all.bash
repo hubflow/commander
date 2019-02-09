@@ -3,9 +3,11 @@
 # https://en.wikipedia.org/wiki/MS-DOS
 # source commom
 echo 'file:// $dr/github.com/hubflow/commander/scripts/bash/all.bash'
+export DEVROOT=$HOME/go/src
+export DR=$HOME/go/src
 
 echo -e '\e[92m
-.....................................................................
+................................................................
 
 
     __  __      __    ______                 ____  ____  _____
@@ -16,15 +18,16 @@ echo -e '\e[92m
 \e[97m
  Where do you want to go today? \e[93m                    v 0.0.1
 \e[92m
-.....................................................................
+...............................................................
 '
 
-echo -e 'to start type: dos ↵'
+echo -e '\e[97m'
+echo -e 'to start type: dos ↵\n'
 
-. /home/dev/go/src/github.com/hubflow/commander/scripts/bash/common/apps.bash
-. /home/dev/go/src/github.com/hubflow/commander/scripts/bash/common/docker.bash
-. /home/dev/go/src/github.com/hubflow/commander/scripts/bash/common/file-management.bash
-. /home/dev/go/src/github.com/hubflow/commander/scripts/bash/common/go.bash
-. /home/dev/go/src/github.com/hubflow/commander/scripts/bash/common/misc.bash
-. /home/dev/go/src/github.com/hubflow/commander/scripts/bash/common/network.bash
-. /home/dev/go/src/github.com/hubflow/commander/scripts/bash/common/os.bash
+. $DR/github.com/hubflow/commander/scripts/bash/common/apps.bash
+. $DR/github.com/hubflow/commander/scripts/bash/common/docker.bash
+. $DR/github.com/hubflow/commander/scripts/bash/common/file-management.bash
+. $DR/github.com/hubflow/commander/scripts/bash/common/go.bash
+. $DR/github.com/hubflow/commander/scripts/bash/common/misc.bash
+. $DR/github.com/hubflow/commander/scripts/bash/common/network.bash
+. $DR/github.com/hubflow/commander/scripts/bash/common/os.bash
