@@ -33,6 +33,7 @@ export DOSROOT=$HOME/go/src/github.com/hubflow/dos
 . $DOSROOT/scripts/bash/common/misc.bash
 . $DOSROOT/scripts/bash/common/network.bash
 . $DOSROOT/scripts/bash/common/os.bash
+. $DOSROOT/scripts/bash/common/colors.bash
 
 # echo -e '\e[97m'
 # echo -e ' to start type: \e[93m dos ↵\n'
