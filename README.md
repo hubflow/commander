@@ -1,6 +1,7 @@
 # Rocket DOS
 
-The Interplanetary Command Line Interface (IPCLI AKA DOS) :rocket:
+The interplanetary command line interface (IPCLI) :rocket:
+
 
 # Install
 
