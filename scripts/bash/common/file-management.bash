@@ -19,6 +19,7 @@ alias .5='cd ../../../../..'
 
 alias .~='cd ~'
 alias .h='.~'
+alias .hc='.~; c'
 alias .d="cd ~/Downloads"
 alias .r="cd $DR"
 alias .rg="cd $DR/github.com"
