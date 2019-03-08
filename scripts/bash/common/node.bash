@@ -1,0 +1,1 @@
+alias nis="npm install --save "
