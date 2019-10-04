@@ -21,10 +21,10 @@ alias .~='cd ~'
 alias .h='.~'
 alias .ch='.~; c'
 alias .d="cd ~/Downloads"
-alias .r="cd $DR"
-alias .rg="cd $DR/github.com"
-alias .rs="cd $DR/source.hubflow.io"
-alias .rk="cd $DR/keybase.io"
+alias .s="cd $DR"
+alias .sg="cd $DR/github.com"
+alias .ss="cd $DR/source.hubflow.io"
+alias .sk="cd $DR/keybase.io"
 
 # perform both mkdir and cd at the same time using a single command
 function mkdir. () { mkdir -p "$@" && eval cd "\"\$$#\""; }
