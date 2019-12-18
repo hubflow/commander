@@ -4,5 +4,5 @@ CLEAN_UP_REPOS_LATEST_RELEASE="https://github.com/davidfoerster/aptsources-clean
 alias reboot='echo "Rebooting system"; sudo reboot'
 alias update='sudo apt-get update'
 alias upgrade='update; sudo apt-get upgrade'
-alias clear-swap="sudo swapoff -a && sudo swapon -a"
-alias fix-duplicate-package-repos='cd /home/$USER/Downloads; wget $CLEAN_UP_REPOS_LATEST_RELEASE; sudo python3 -OEs aptsources-cleanup.zip'
+alias os-clear-swap="sudo swapoff -a && sudo swapon -a"
+alias os-fix-duplicate-package-repos='cd /home/$USER/Downloads; wget $CLEAN_UP_REPOS_LATEST_RELEASE; sudo python3 -OEs aptsources-cleanup.zip'
