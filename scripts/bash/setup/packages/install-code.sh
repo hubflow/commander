@@ -34,12 +34,12 @@ code-insiders --install-extension mrmlnc.vscode-duplicate
 
 
 
-del  ~/.config/Code\ -\ Insiders/User/settings.json
-ln -s ~/go/src/github.com/hubflow/dos/scripts/config/vscode/User/settings.json  ~/.config/Code\ -\ Insiders/User/settings.json
-del  ~/.config/Code\ -\ Insiders/User/keybindings.json
-X
-del ~/.config/Code\ -\ Insiders/User/snippets
-ln -s ~/go/src/github.com/hubflow/dos/scripts/config/vscode/User/snippets ~/.config/Code\ -\ Insiders/User/snippets
+rm  ~/.config/'Code - Insiders'/User/settings.json
+ln -s ~/go/src/github.com/hubflow/dos/scripts/config/vscode/User/settings.json  ~/.config/'Code - Insiders'/User/settings.json
+rm  ~/.config/'Code - Insiders'/User/keybindings.json
+ln -s ~/go/src/github.com/hubflow/dos/scripts/config/vscode/User/keybindings.json  ~/.config/'Code - Insiders'/User/keybindings.json
+rm ~/.config/'Code - Insiders'/User/snippets
+ln -s ~/go/src/github.com/hubflow/dos/scripts/config/vscode/User/snippets ~/.config/'Code - Insiders'/User/snippets
 
 
 echo "Intalling code-insiders   ... Done"
