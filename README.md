@@ -26,7 +26,10 @@ sh ./dos/scripts/bash/setup/install-all-packages.sh
 or run a oneliner
 
 ```bash
-# Clone repository
+# This clones the repository and setsup everything
+curl -s https://raw.githubusercontent.com/hubflow/dos/master/scripts/bash/setup/setup.sh | bash -s arg1 arg2
+
+# This clones the repository and setsup everything
 curl -s https://raw.githubusercontent.com/hubflow/dos/master/scripts/bash/setup/setup.sh | bash -s arg1 arg2
 
 ```
