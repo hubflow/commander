@@ -5,7 +5,7 @@ echo "# Projects bash_aliases" >> ~/.bash_projects
 # sed -i '1s;^;# Projects bash_aliases\n;' ~/.bash_projects
 
 # remove  duplicates
-sort ~/.bash_projects | uniq > .bash_projects.new
+cat ~/.bash_projects | uniq > .bash_projects.new
 mv ~/.bash_projects  ~/.bash_projects.backup
 mv ~/.bash_projects.new  ~/.bash_projects
 
@@ -17,7 +17,7 @@ sed -i '1s;^;. ~/go/src/github.com/hubflow/dos/scripts/bash/all-bash_aliases.bas
 
 
 # remove  duplicates
-sort ~/.bash_aliases | uniq > .bash_aliases.new
+cat ~/.bash_aliases | uniq > .bash_aliases.new
 mv ~/.bash_aliases  ~/.bash_aliases.backup
 mv ~/.bash_aliases.new  ~/.bash_aliases
 
