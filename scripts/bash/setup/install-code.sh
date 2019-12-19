@@ -16,6 +16,10 @@ code-insiders --install-extension hollowtree.vue-snippets
 # Editor -> Themes
 code-insiders --install-extension dracula-theme.theme-dracula
 code-insiders --install-extension Luxcium.pop-n-lock-theme-vscode
+code-insiders --install-extension gokulkrishh.dark-theme
+code-insiders --install-extension bceskavich.theme-dracula-at-night
+code-insiders --install-extension RobbOwen.synthwave-vscode
+
 # Editor -> Icons
 code-insiders --install-extension vscode-icons-team.vscode-icons
 # Editor -> Syntax
@@ -23,6 +27,10 @@ code-insiders --install-extension mikestead.dotenv
 
 # Docker
 code-insiders --install-extension ms-azuretools.vscode-docker
+
+# Productivity
+code-insiders --install-extension mrmlnc.vscode-duplicate
+
 
 
 
@@ -34,4 +42,4 @@ del ~/.config/Code\ -\ Insiders/User/snippets
 ln -s ~/go/src/github.com/hubflow/dos/scripts/config/VSCodium/User/snippets ~/.config/Code\ -\ Insiders/User/snippets
 
 
-echo "Intalling VSCodium   ... Done"
+echo "Intalling code-insiders   ... Done"

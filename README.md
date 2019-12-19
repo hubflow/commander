@@ -7,6 +7,7 @@ The interplanetary command line interface (IPCLI) :rocket:
 
 
 # Install
+Open a terminal and run:
 
 ```bash
 # Clone repository
@@ -15,12 +16,22 @@ cd ~/go/src/github.com/hubflow
 git clone git@github.com:hubflow/dos.git
 
 # Check contents of install script
-cat ./dos/scripts/bash/install.sh
+cat ./dos/scripts/bash/setup/install-all.sh
 
 # Run install script
-sh ./dos/scripts/bash/install.sh
+sh ./dos/scripts/bash/setup/install-all.sh
 
 ```
+
+or run a oneliner
+
+```bash
+# Clone repository
+sudo curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+```
+
+
 
 # Standard Go Project Layout
 
