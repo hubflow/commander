@@ -26,11 +26,17 @@ sh ./dos/scripts/bash/setup/install-all-packages.sh
 or run a oneliner
 
 ```bash
-# This clones the repository and setsup everything
+# This clones the repository and setup all packages
 curl -s https://raw.githubusercontent.com/hubflow/dos/master/scripts/bash/setup/setup.sh | bash -s arg1 arg2
 
-# This clones the repository and setsup everything
-curl -s https://raw.githubusercontent.com/hubflow/dos/master/scripts/bash/setup/setup.sh | bash -s arg1 arg2
+# This setup the fiacode font
+curl -s https://raw.githubusercontent.com/hubflow/dos/master/scripts/bash/setup/packages/install-firacode.shh | bash -s arg1 arg2
+
+# This setup vscode
+curl -s https://raw.githubusercontent.com/hubflow/dos/master/scripts/bash/setup/packages/install-code.sh | bash -s arg1 arg2
+
+# This setup all bash aliases
+curl -s https://raw.githubusercontent.com/hubflow/dos/master/scripts/bash/setup/packages/install-all-bash_aliases.sh | bash -s arg1 arg2
 
 ```
 
