@@ -13,5 +13,5 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "telemetry.enableTelemetry": false,
-  "vsicons.dontShowNewVersionMessage": true
+  "vsicons.dontShowNewVersionMessage": true,
 }

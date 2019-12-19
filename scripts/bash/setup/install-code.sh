@@ -13,12 +13,16 @@ code-insiders --install-extension sdras.vue-vscode-snippets
 code-insiders --install-extension hollowtree.vue-snippets
 
 # Editor
+# Editor -> Themes
 code-insiders --install-extension dracula-theme.theme-dracula
+code-insiders --install-extension Luxcium.pop-n-lock-theme-vscode
+# Editor -> Icons
 code-insiders --install-extension vscode-icons-team.vscode-icons
+# Editor -> Syntax
+code-insiders --install-extension mikestead.dotenv
 
 # Docker
 code-insiders --install-extension ms-azuretools.vscode-docker
-code-insiders --install-extension stuart.unique-window-colors
 
 
 
