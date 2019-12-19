@@ -27,7 +27,7 @@ or run a oneliner
 
 ```bash
 # Clone repository
-curl -s http://server/path/script.sh | bash -s arg1 arg2
+curl -s https://raw.githubusercontent.com/hubflow/dos/master/scripts/bash/setup/setup.sh | bash -s arg1 arg2
 
 ```
 
