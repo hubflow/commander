@@ -20,6 +20,7 @@ sed -i '1s;^;. ~/go/src/github.com/hubflow/dos/scripts/bash/all-bash_aliases.bas
 # sort ~/.bash_aliases | uniq -d > .bash_aliases.new
 # mv ~/.bash_aliases  ~/.bash_aliases.backup
 # mv ~/.bash_aliases.new  ~/.bash_aliases
-                
+
+. ~/.bash_aliases                
 
 echo "install bash_aliases    ...done" 
