@@ -1,7 +1,7 @@
 echo "Install bash_aliases    ...begins" 
 
 touch ~/.bash_projects
-echo "" >> ~/.bash_projects
+echo "# Projects bash_aliases" >> ~/.bash_projects
 # sed -i '1s;^;# Projects bash_aliases\n;' ~/.bash_projects
 
 # remove  duplicates
