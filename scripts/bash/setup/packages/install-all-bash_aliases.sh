@@ -5,9 +5,9 @@ echo "# Projects bash_aliases" >> ~/.bash_projects
 # sed -i '1s;^;# Projects bash_aliases\n;' ~/.bash_projects
 
 # remove  duplicates
-cat ~/.bash_projects | uniq > .bash_projects.new
-mv ~/.bash_projects  ~/.bash_projects.backup
-mv ~/.bash_projects.new  ~/.bash_projects
+# sort ~/.bash_projects | uniq -d > .bash_projects.new
+# mv ~/.bash_projects  ~/.bash_projects.backup
+# mv ~/.bash_projects.new  ~/.bash_projects
 
 
 touch ~/.bash_aliases
@@ -17,9 +17,9 @@ sed -i '1s;^;. ~/go/src/github.com/hubflow/dos/scripts/bash/all-bash_aliases.bas
 
 
 # remove  duplicates
-cat ~/.bash_aliases | uniq > .bash_aliases.new
-mv ~/.bash_aliases  ~/.bash_aliases.backup
-mv ~/.bash_aliases.new  ~/.bash_aliases
+# sort ~/.bash_aliases | uniq -d > .bash_aliases.new
+# mv ~/.bash_aliases  ~/.bash_aliases.backup
+# mv ~/.bash_aliases.new  ~/.bash_aliases
 
 
 echo "install bash_aliases    ...done" 
