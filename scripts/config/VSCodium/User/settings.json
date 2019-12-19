@@ -7,6 +7,9 @@
   "editor.formatOnPaste": false,
   "editor.formatOnSave": false,
   "editor.formatOnType": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
   "git.autofetch": true,
   "git.confirmSync": false,
   "telemetry.enableTelemetry": false,

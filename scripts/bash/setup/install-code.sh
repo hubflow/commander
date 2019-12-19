@@ -17,12 +17,15 @@ code-insiders --install-extension dracula-theme.theme-dracula
 code-insiders --install-extension vscode-icons-team.vscode-icons
 
 # Docker
-code-insiders --install-extension  ms-azuretools.vscode-docker
+code-insiders --install-extension ms-azuretools.vscode-docker
+code-insiders --install-extension stuart.unique-window-colors
 
 
 
 del  ~/.config/Code\ -\ Insiders/User/settings.json
 ln -s ~/go/src/github.com/hubflow/dos/scripts/config/VSCodium/User/settings.json  ~/.config/Code\ -\ Insiders/User/settings.json
+del  ~/.config/Code\ -\ Insiders/User/keybindings.json
+X
 del ~/.config/Code\ -\ Insiders/User/snippets
 ln -s ~/go/src/github.com/hubflow/dos/scripts/config/VSCodium/User/snippets ~/.config/Code\ -\ Insiders/User/snippets
 
