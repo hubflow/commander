@@ -16,10 +16,10 @@ cd ~/go/src/github.com/hubflow
 git clone git@github.com:hubflow/dos.git
 
 # Check contents of install script
-cat ./dos/scripts/bash/setup/install-all.sh
+cat ./dos/scripts/bash/setup/install-all-packages.sh
 
 # Run install script
-sh ./dos/scripts/bash/setup/install-all.sh
+sh ./dos/scripts/bash/setup/install-all-packages.sh
 
 ```
 
@@ -27,7 +27,7 @@ or run a oneliner
 
 ```bash
 # Clone repository
-sudo curl -L "https://raw.githubusercontent.com/hubflow/dos/master/scripts/bash/setup/install-all.sh" -o /usr/local/bin/docker-compose
+curl -s http://server/path/script.sh | bash -s arg1 arg2
 
 ```
 
