@@ -4,8 +4,11 @@
   "editor.fontSize": 16,
   "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "vscode-icons",
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.formatOnType": true,
-  "git.autofetch": true
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "telemetry.enableTelemetry": false,
+  "vsicons.dontShowNewVersionMessage": true
 }
