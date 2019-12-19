@@ -1,13 +1,5 @@
-#!/usr/bin/env bash
-
-echo "Intalling Dependencies   ..."
-echo "sudo apt install trash-cli"
-sudo apt install trash-cli
-echo "sudo apt install python3-apt"
-sudo apt install python3-apt
-echo "fonts-firacode begins" 
 #https://github.com/tonsky/FiraCode/wiki/Linux-instructions#manual-installation
-
+echo "fonts-firacode begins" 
 
 fonts_dir="${HOME}/.local/share/fonts"
 if [ ! -d "${fonts_dir}" ]; then
@@ -32,6 +24,3 @@ echo "fc-cache -f"
 fc-cache -f
 
 echo "fonts-firacode ends..."
-
-
-echo "Intalling Dependencies   ... Done"
