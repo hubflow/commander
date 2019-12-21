@@ -1,7 +1,7 @@
 {
   "editor.fontFamily": "'Fira Code'",
   "editor.fontLigatures": true,
-  "editor.fontSize": 16,
+  "editor.fontSize": 18,
   "workbench.colorTheme": "SynthWave '84",
   "workbench.iconTheme": "vscode-icons",
   "editor.formatOnPaste": false,
